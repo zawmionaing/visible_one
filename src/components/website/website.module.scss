@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.WebContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.container {
+  // width: 60%;
+  height: 400px;
+  margin-right: 0;
+  background-image: linear-gradient(to right, #3ae7ab, #2dc4ea);
+}
+.contact {
+  width: 50%;
+  margin: 50px 100px 5px auto;
+}
+.slideIcon:hover {
+  transition: 0.3s;
+}
+.slideIcon:hover {
+  cursor: pointer;
+}
+.switchCon {
+  position: absolute;
+  width: 700px;
+  left: 0;
+  top: 0;
+}
+.switchBtn {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.switchArrow:hover {
+  cursor: pointer;
+}
+//destop slide
+.destopCon {
+  position: absolute;
+  top: 0;
+  left: -70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.trippro {
+  height: 200px;
+}
+.destop {
+  height: 400px;
+}
+
+//mobile slide
+.mobileCon {
+  position: absolute;
+  top: 0;
+  left: -150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.trippro0 {
+  height: 370px;
+}
+.trippro1 {
+  height: 350px;
+}
+.trippro2 {
+  height: 300px;
+}
+.mobile {
+  height: 400px;
+}

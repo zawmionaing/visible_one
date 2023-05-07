@@ -1,0 +1,68 @@
+$text-primary-color: #2dc4ea;
+$text-secondary: #58595b;
+$success: #02be02;
+
+.contactCon {
+  background-color: #e4e4e5;
+}
+.menuCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 5px 20px;
+  margin-right: 200px;
+}
+.menuItems,
+.menuItems2 {
+  color: $text-secondary;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.menuItems2 {
+  padding: 0px 5px;
+  background-color: $success;
+  border-radius: 5px;
+}
+.iconGroup1 {
+  color: $text-primary-color;
+  font-size: 5px;
+  margin-right: 5px;
+}
+.iconGroup2 {
+  color: #fff;
+  font-size: 10px;
+  margin-right: 5px;
+}
+.text {
+  font-size: 5px !important;
+}
+.selectbox {
+  color: $text-primary-color;
+  font-size: 10px;
+  text-transform: uppercase;
+  background-size: 12px;
+  border: 1px solid $text-primary-color;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  height: 30px;
+}
+.selectbox:focus-visible {
+  outline: none;
+}
+.selectbox option {
+  color: $text-primary-color;
+  background-color: #fff;
+  text-transform: uppercase;
+  border-radius: 0;
+  font-size: 10px;
+  border: none;
+}
+.text_uppercase {
+  text-transform: uppercase;
+  font-size: 10px;
+}

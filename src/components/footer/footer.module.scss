@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.container {
+  width: 100%;
+
+  background-image: url("../../images/tower.png");
+  background-size: cover;
+}
+.background {
+  width: 100%;
+  position: relative;
+  background-color: #000000bd;
+  display: flex;
+
+  // justify-content: center;
+  align-items: center;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.quickLinks {
+  font-size: 12px;
+  color: #fff;
+  text-align: left;
+  line-height: 25px;
+}
+.quickLinks1 {
+  font-size: 12px;
+  color: #fff;
+  text-align: left;
+  line-height: 25px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0;
+}
+.footerMail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.partner {
+  height: 70px;
+  width: 1000px;
+  border: 1.5px solid #fff;
+  border-left: none;
+  border-right: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.partnerImg {
+  width: 90px;
+  height: 30px;
+  margin-right: 20px;
+}
+.partnerImgmap {
+  width: 50px;
+  height: 30px;
+  margin-right: 10px;
+}
+.inputBox {
+  font-size: 12px;
+  color: #adadad !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.social {
+  color: #fff;
+  width: auto;
+}
+.term::after,
+.term::before {
+  color: #fff;
+  content: "\25CF";
+  font-size: 10px;
+  padding: 0 8px;
+  position: relative;
+  // top: -1px;
+}
+
+.contactLink {
+  text-decoration: none;
+  color: #1100ff;
+}
+
+.message {
+  position: absolute;
+  right: -655px !important;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #00d824;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.message:hover {
+  cursor: pointer;
+  background-color: #4fff6c;
+}

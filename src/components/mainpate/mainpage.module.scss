@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+$text: #58595b;
+$light: #ffffff;
+
+.container {
+  height: 470px;
+  width: 100%;
+  background-image: url("../../images/main.png");
+  background-size: cover;
+}
+.itemCon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #48484988;
+  z-index: 1;
+  position: relative;
+}
+.titleCon {
+  height: auto;
+  width: 100%;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  color: $light;
+  text-transform: uppercase;
+}
+.divisor {
+  width: 3px;
+  height: 45px;
+  background-color: $light;
+  border-radius: 20px;
+  margin: 0px 30px;
+}
+.serviceImg {
+  width: 50px;
+  height: 50px;
+}
+.laptop{
+    width: 70%;
+    margin-top: 45px;
+}

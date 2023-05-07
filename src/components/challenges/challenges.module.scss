@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+$text: #58595b;
+
+.container {
+  margin-top: 50px;
+  
+}
+.cubeImg {
+  width: 500px;
+}
+.challengeBox {
+  width: 500px !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  color: $text;
+  background-image: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  margin-left: 3px 30px 30px 3px;
+  transition: 0.3s;
+}
+.challengeBox:hover {
+  color: #96eaff;
+  background-image: linear-gradient(to right, #2dc4ea, #3ae7ab);
+}
+.challengeItemCon {
+  width: 600px;
+  height: 400px;
+  overflow-y: scroll;
+}
+.challengeItemCon::-webkit-scrollbar{
+  display: none;
+}
+.viewMore {
+  text-transform: uppercase !important;
+  font-weight: 400 !important;
+  border-radius: 20px !important;
+  background-image: linear-gradient(to right, #2dc4ea, #3ae7ab);
+}
