@@ -10,14 +10,14 @@ import Footer from "./footer/footer";
 export default function peterVisibee() {
     return (
 
-        <div style={{width:'1366px', margin:'auto'}}>
-           <ContactBar/>
-           <MenuBar/>
-           <MaingPage/>
-           <About/>
-           <Challenges/>
-           <Website/>
-           <Footer/>
+        <div style={{ width: '1366px', margin: 'auto' }}>
+            <ContactBar />
+            <MenuBar />
+            <MaingPage />
+            <About />
+            <Challenges />
+            <Website />
+            <Footer />
         </div>
     )
 }
