@@ -9,7 +9,7 @@ const About = () => {
 
     return (
         <Grid container spacing={2} direction='row' className={aboutStyle.container}>
-            <Grid item lg={6} className={aboutStyle.aboutText}>
+            <Grid item lg={6} md={12} className={aboutStyle.aboutText}>
                 <Slide left>
                     <Box className={aboutStyle.title} sx={{ display: 'flex' }}>
                         <Typography sx={{ fontSize: '20px', fontWeight: '700', textTransform: 'uppercase', marginRight: '10px' }}>About</Typography>
@@ -17,7 +17,7 @@ const About = () => {
                     </Box>
                 </Slide>
                 <Fade left>
-                    <Box sx={{ margin: '15px 0' }}>
+                    <Box sx={{ margin: '15px 0' }} className={aboutStyle.para}>
                         <Typography sx={{ textAlign: 'justify', fontSize: '12px' }}>
                             Lorem ipsum dolor, sit amet consectetur
                             adipisicing elit. Accusantium libero voluptatibus totam,

@@ -48,8 +48,13 @@ const Challenges = () => {
                     <Typography sx={{ fontSize: '20px', fontWeight: '700', textTransform: 'uppercase', color: '#2dc4ea' }}>Challenges</Typography>
                 </Box>
             </Fade>
-            <Grid container>
-                <Grid lg={6} sm={12} item>
+            <Grid container spacing={3}
+                sx={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                }}>
+                <Grid lg={6} md={12} item>
                     <Fade left>
                         <img
                             className={challengeStyle.cubeImg}
@@ -58,7 +63,7 @@ const Challenges = () => {
                         />
                     </Fade>
                 </Grid>
-                <Grid lg={6} sm={12} item>
+                <Grid lg={6} md={12} item>
                     <Slide right>
                         <Box className={challengeStyle.challengeItemCon}>
                             {chaData?.map(item => (
@@ -82,7 +87,7 @@ const Challenges = () => {
                         variant="contained">View More</Button>
                 </Box>
             </Fade>
-        </Stack>
+        </Stack >
     )
 }
 export default Challenges

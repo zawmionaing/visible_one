@@ -1,7 +1,7 @@
 import { Stack, Typography, Box, TextField, Button } from "@mui/material"
 
 import FooterStyle from "./footer.module.scss"
-import { Fade, Slide, Bounce } from "react-reveal"
+import { Fade, Slide } from "react-reveal"
 //icon
 import EmailIcon from '@mui/icons-material/Email';
 import { Facebook, Twitter, Instagram, YouTube, ForumRounded } from "@mui/icons-material";
@@ -170,7 +170,6 @@ const Footer = () => {
                             fontSize: '12px',
                             color: '#fff',
                             fontWeight: '200',
-                            marginBottom: '10px',
                         }}>
                         <Typography className={FooterStyle.shopp}>Shopping T&C </Typography>
                         <Typography className={FooterStyle.term}> Terms & Conditions</Typography>

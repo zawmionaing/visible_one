@@ -27,7 +27,6 @@ const Website = () => {
     const switchLeft = () => {
         setIsDestop(false)
     }
-    console.log(isDestop)
     return (
         <Stack direction='row' className={webStyle.WebContainer}>
             <Slide right>
@@ -108,7 +107,6 @@ const Website = () => {
                     <Slide left>
                         <Stack
                             direction='row'
-                            // sx={{ marginLeft: '-1000px' }}
                             className={webStyle.destopCon}
                         >
                             <img
@@ -129,7 +127,6 @@ const Website = () => {
                         <Stack
                             spacing={1}
                             direction='row'
-                            // sx={{ marginLeft: '-1000px' }}
                             className={webStyle.mobileCon}
                         >
                             <img
